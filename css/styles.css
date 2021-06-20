@@ -10957,18 +10957,49 @@ p {
 
 
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
+ 
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  /*background-image: url("../assets/img/header-bg.jpg");*/
 
 
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+
+  position: relative;
+   
+    width:100%;
+    z-index: 200;
+
+
+
+
+
 }
+
+#videodiego {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:auto;
+    width:auto;
+    z-index: -100;
+}
+   
+#banner {
+    position: relative;
+    height:auto;
+    width:auto;
+    overflow: hidden;
+}
+
+
+
+
+
 
 
 header.masthead .masthead-subheading {
